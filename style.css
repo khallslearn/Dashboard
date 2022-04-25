@@ -1,0 +1,176 @@
+body {
+  height: 1fr;
+  width: 1fr;
+}
+
+#container1 {
+  display: grid;
+  grid-template: 0.5fr 3fr/0.1fr 1fr;
+  font-size: 5px;
+}
+/*side bar*/
+#sidebar {
+  background-color: #38bdf8;
+  grid-row-start: span 2;
+  color: white;
+  padding-left: 40px;
+  font-size: 0.5rem;
+}
+#icons {
+  position: relative;
+  top: 20px;
+  right: 25px;
+}
+
+#sidebar h2 {
+  position: relative;
+  left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#closer {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#sidebar #closer2 {
+  padding-top: 20px;
+}
+
+/*side bar*/
+/*top*/
+
+#top {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template: 0.8fr 1.5fr/4fr 2fr;
+}
+#search {
+  background-color: rgb(117, 114, 114);
+  padding-right: 50%;
+  border: rgb(201, 194, 194);
+  border-radius: 10px;
+}
+#magnify {
+  position: relative;
+  top: 7px;
+  right: 3px;
+}
+#divsearch {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+#bell {
+  padding-top: 5px;
+  font-size: large;
+  font-weight: bolder;
+}
+#pencil {
+  height: 28px;
+  width: 24px;
+  padding-left: 20px;
+}
+#hi {
+  display: grid;
+  grid-template:
+    "a b"
+    "a c";
+  grid-template-rows: 40% 40%;
+  grid-template-columns: 5% 50%;
+  font-size: medium;
+}
+#a {
+  height: 200%;
+  width: 60%;
+  padding-left: 20px;
+}
+#b {
+  padding-left: 20px;
+  font-weight: 550;
+}
+#c {
+  grid-column-start: 2;
+  padding-left: 20px;
+  font-weight: 900;
+}
+
+#buttony {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  height: 40%;
+  width: 60%;
+  gap: 20px;
+}
+.button {
+  background-color: #38bdf8;
+  border: none;
+  border-radius: 35px;
+  color: white;
+}
+.button:hover {
+  background-color: #3e94ba;
+}
+
+/*top*/
+/*bottom*/
+
+#projects {
+  background-color: #cbd5e1;
+  display: grid;
+  grid-template-areas:
+    "label-1 label-2 label-7"
+    "label-3 label-4 label-7"
+    "label-5 label-6 label-8"
+    ". . label-8";
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#major {
+  padding: 0px;
+  color: #38bdf8;
+}
+.card {
+  background-color: white;
+  border-left: solid rgb(187, 118, 15) 4px;
+  margin: 5%;
+  white-space: normal;
+  font-size-adjust: initial;
+}
+#label-7 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+#label-8 {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-row-end: span 2;
+}
+.card p {
+  text-align: center;
+}
+.card header {
+  position: relative;
+  left: 5px;
+}
+
+.card footer {
+  position: relative;
+  text-align: right;
+  right: 2px;
+}
+#clear {
+  border: none;
+  background-color: white;
+}
+#clear:hover {
+  background-color: #cbd5e1;
+  border-radius: 20px;
+}
+.card2 {
+  background-color: white;
+  margin: 5%;
+}
+
+/*bottom*/
