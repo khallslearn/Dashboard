@@ -114,21 +114,25 @@ body {
 
 /*top*/
 /*bottom*/
-
+#proj{background-color: #cbd5e1; }
 #projects {
+  margin-top: 20px;
   background-color: #cbd5e1;
   display: grid;
   grid-template-areas:
-    "label-1 label-2 label-7"
-    "label-3 label-4 label-7"
-    "label-5 label-6 label-8"
-    ". . label-8";
+    "label-1 label-2"
+    "label-3 label-4"
+    "label-5 label-6";
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 #major {
   padding: 0px;
+  margin: 0px;
+  border: 0px;
   color: #38bdf8;
+  font-weight: bolder;
+  text-align: center;
 }
 .card {
   background-color: white;
